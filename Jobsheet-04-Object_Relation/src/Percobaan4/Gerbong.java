@@ -33,7 +33,8 @@ public class Gerbong {
         if (kursi.getPenumpang() == null) {
             kursi.setPenumpang(penumpang);
         } else {
-            System.out.println("kursi nomor "+nomor+ " sudah ditempati oleh " +kursi.getPenumpang().getNama());
+            System.out.println("kursi nomor "+nomor+ 
+            " sudah ditempati oleh " +kursi.getPenumpang().getNama());
         }
     }
 
